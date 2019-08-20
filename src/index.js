@@ -19,7 +19,6 @@ export default class App extends Component {
   };
 
   saveSignature = () => {
-    // realizar o put ou gravar no store;
     const { image } = this.state;
     console.log(image);
   };
